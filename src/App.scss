@@ -1,16 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap");
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+
+  font-family: "Poppins", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -39,4 +33,11 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.btn-shorty-style {
+  @apply text-primary-white transition-all ease-in duration-300 bg-primary-cyan rounded-full p-3;
+  &:hover {
+    @apply opacity-[.6] transition-all ease-in duration-300;
+  }
 }

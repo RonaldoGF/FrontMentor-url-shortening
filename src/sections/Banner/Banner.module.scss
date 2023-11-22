@@ -1,0 +1,10 @@
+.ArticleText {
+  @apply flex px-[4em] lg:px-0 lg:pl-[10em] flex-col gap-y-5 justify-center;
+}
+
+.ImgStyle {
+  @apply w-fit lg:w-full pl-[5em] lg:min-w-[25rem] h-auto text-center  lg:translate-x-20;
+  img {
+    @apply w-full;
+  }
+}
